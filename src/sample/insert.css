@@ -1,0 +1,18 @@
+#MenuBar{
+    -fx-background-color: #9a9a9a;
+    -fx-font-size: 15px;
+}
+#Menu{
+    /*-fx-background-color: #f4f7f6;
+    */-fx-font-size: 14px;
+}
+.button{
+    -fx-background-color: gray;
+    -fx-font-size: 16px;
+}
+#CenterArea{
+    /*-fx-background-image: url("img/back.jpg");*/
+}
+#InsertPane{
+    -fx-background-image: url("img/back.jpg");
+}

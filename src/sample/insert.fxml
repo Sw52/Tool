@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="InsertPane" prefHeight="558.0" prefWidth="850.0" stylesheets="@insert.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.InsertController">
+   <children>
+      <MenuBar fx:id="MenuBar" prefHeight="44.0" prefWidth="837.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Tool">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Look" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Help">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="About" />
+               </items>
+            </Menu>
+        </menus>
+         <padding>
+            <Insets top="8.0" />
+         </padding>
+      </MenuBar>
+      <Pane fx:id="Menu" layoutY="44.0" prefHeight="514.0" prefWidth="173.0">
+         <children>
+            <Button fx:id="Button" layoutX="29.0" layoutY="23.0" mnemonicParsing="false" onAction="#Button" opacity="0.93" prefHeight="28.0" prefWidth="116.0" text="Button" />
+            <Button fx:id="Button2" layoutX="29.0" layoutY="71.0" mnemonicParsing="false" onAction="#Button" prefHeight="28.0" prefWidth="116.0" text="Button" />
+            <Button fx:id="Button3" layoutX="29.0" layoutY="125.0" mnemonicParsing="false" onAction="#Button" prefHeight="28.0" prefWidth="116.0" text="Button" />
+            <Button layoutX="29.0" layoutY="178.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="116.0" text="Button" />
+            <Button layoutX="29.0" layoutY="241.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="116.0" text="Button" />
+         </children>
+      </Pane>
+      <Pane fx:id="CenterArea" layoutX="173.0" layoutY="31.0" prefHeight="527.0" prefWidth="652.0">
+         <children>
+            <TextField fx:id="Text_Search" layoutX="14.0" layoutY="24.0" onAction="#Text_Search" prefHeight="34.0" prefWidth="512.0" />
+            <Button fx:id="Button_search" layoutX="548.0" layoutY="24.0" mnemonicParsing="false" onAction="#Button_search" text="Search" />
+            <TextArea fx:id="TextOut" layoutX="14.0" layoutY="76.0" opacity="0.4" prefHeight="430.0" prefWidth="616.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
